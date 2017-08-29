@@ -1,17 +1,116 @@
-/*salmon: #f58f6b*/
-/*grey: #474747*/
-/*blue: #cde7e6*/
+
+/*neutral-light: EEF0EA*/
+
+/*royal-blue: 2657C0*/
+
+/*purple: 744346*/
 
 body {
   display: flex;
   margin: auto;
   flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  color: #2B2B2B;
 }
 
-h3{
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.abovecut h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 60px;
+  padding-top: 60px;
+}
+
+.abovecut {
+  text-align: center;
+  background-color: #EEF0EA;
+  color: #2657C0;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.abovecut img {
+  max-width: 100%;
+  max-height: 100%;
+  /*display: flex;*/
+}
+
+.bio {
+  padding-top: 0;
+  font-weight: 300;
+  background-color: #744346;
+  color: #EEF0EA;
+  font-size: 30px;
   text-align: center;
 }
 
+p {
+  padding: 20px 40px;
+  margin-top: 0;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+
+.work img {
+  filter: grayscale(0%);
+  height: 600px;
+  padding: 20px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 60px 20px;
+  flex-flow: row wrap;
+
+}
+
+.social {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: white;
+}
+
+a {
+  color: #744346;
+}
+
+a:hover {
+  color: #2657C0;
+}
+
+footer {
+  color: #2657C0;
+  padding: 40px;
+  text-align: center;
+  background-color: #EEF0EA;
+}
+
+/*******************************
+***********flipper************
+**********container***********
+*******************************/
 .front img {
   align-self: center;
   margin: auto;
@@ -24,10 +123,10 @@ h3{
 .flip-container, .front, .back {
   justify-content: center;
   width: 100%;
-  height: 300px;
+  height: 240px;
   perspective: 1000px;
   display: flex;
-  background-color: #f58f6b;
+  background-color: #744346;
   /*border-radius: 5%;*/
 }
 
@@ -52,25 +151,14 @@ h3{
 }
 
 .back p {
+  font-family: 'Libre Baskerville', serif;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
+  line-height: 2em;
 }
 
 .flipper {
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative;
-}
-
-.social{
-  font-size: 50px;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  background-color: #f58f6b;
-  color: white;
-}
-
-a{
-  color: white;
 }
