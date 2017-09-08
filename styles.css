@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   font-family: 'Raleway', sans-serif;
   color: #2B2B2B;
+  line-height: 1.4;
 }
 
 h2 {
@@ -59,6 +60,7 @@ h4 {
 p {
   padding: 20px 40px;
   margin-top: 0;
+  text-align: left;
 }
 
 img {
@@ -140,7 +142,7 @@ footer {
   transform: rotateY(180deg);
   align-items: center;
   text-align: center;
-  line-height: 4em;
+  /*line-height: 4em;*/
 }
 
 .front, .back {
@@ -154,7 +156,7 @@ footer {
   font-family: 'Libre Baskerville', serif;
   color: white;
   font-size: 2em;
-  line-height: 2em;
+  line-height: 2.8em;
 }
 
 .flipper {
