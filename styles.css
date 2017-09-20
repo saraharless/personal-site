@@ -134,7 +134,7 @@ footer {
   height: 240px;
   perspective: 1000px;
   display: flex;
-  background-color: #744346;
+  background-color: #15546E;
   /*border-radius: 5%;*/
 }
 
@@ -162,7 +162,9 @@ footer {
   font-family: 'Libre Baskerville', serif;
   color: white;
   font-size: 2em;
-  line-height: 2.8em;
+  line-height: 1.8em;
+  margin-top: 1.3em;
+  align-content: center;
 }
 
 .flipper {
